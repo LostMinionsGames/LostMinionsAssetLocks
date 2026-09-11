@@ -11,7 +11,7 @@ body:
     attributes:
       label: Plugin version
       description: Enter the version shown by the plugin package or descriptor.
-      placeholder: 1.0.0-rc.1
+      placeholder: 1.0.0
     validations:
       required: true
   - type: input

@@ -8,7 +8,7 @@ The plugin is deliberately focused. It helps teams check out and release lockabl
 
 ## Current status
 
-The current descriptor version is `1.0.0-rc.1` and is marked beta. This repository documents the plugin and provides public support resources; it is not a plugin source distribution and does not imply Fab availability, pricing, or a final release.
+The current descriptor version is final `1.0.0` and is not marked beta. This repository documents the plugin, release notes, and public support resources; it is not a plugin source distribution and does not imply Fab availability, pricing, or a Fab listing.
 
 ## What it provides
 

@@ -2,9 +2,9 @@
 
 All notable public release notes for Lost Minions Asset Locks will be maintained here.
 
-## 1.0.0-rc.1 — Current pre-release
+## 1.0.0 — Initial release
 
-The plugin descriptor identifies this build as a beta release candidate. This is not a final `1.0.0` release or a claim that a Fab listing is available.
+The plugin descriptor identifies this build as final `1.0.0` and is not marked beta. This release does not claim that a Fab listing is available.
 
 ### Documented capabilities
 

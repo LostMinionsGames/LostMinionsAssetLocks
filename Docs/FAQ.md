@@ -38,7 +38,7 @@ Ordinary release checks local state and can refuse to release a dirty asset. Res
 
 ## Which Unreal Engine versions are supported?
 
-The current beta documentation identifies UE 5.6, 5.7, and 5.8 as validation targets. This repository does not claim packaged-plugin validation for a specific engine version; consult the release material supplied with your plugin package.
+Final `1.0.0` packaged plugins were built, loaded in clean C++ hosts, and focused-test validated on UE 5.6.1, UE 5.7.4, and UE 5.8.1. This does not claim compatibility with other engine versions; consult the release material supplied with your plugin package.
 
 ## Do I need a Lost Minions account or subscription?
 

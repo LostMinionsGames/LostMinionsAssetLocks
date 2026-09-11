@@ -45,6 +45,6 @@ To view team lock state, open **Tools > Lost Minions Asset Locks > Git LFS Check
 
 ## Engine compatibility
 
-The current plugin descriptor is `1.0.0-rc.1` and marked beta. The existing product documentation identifies Unreal Engine 5.6, 5.7, and 5.8 as validation targets; this support repository does not claim packaged-plugin validation for a particular engine version. Check the release material supplied with your plugin package before adopting it for a project.
+The current plugin descriptor is final `1.0.0` and is not marked beta. Final packaged plugins were built, loaded in clean C++ hosts, and focused-test validated on UE 5.6.1, UE 5.7.4, and UE 5.8.1. This is not a claim of compatibility with other engine versions; check the release material supplied with your plugin package before adopting it for a project.
 
 Next: [Configuration](Configuration.md) and [Troubleshooting](Troubleshooting.md).
