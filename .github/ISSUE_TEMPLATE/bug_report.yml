@@ -1,0 +1,76 @@
+name: Bug report
+description: Report a reproducible problem with Lost Minions Asset Locks.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Do not include passwords, tokens, credentials, cookies, private keys, authentication headers, secret-bearing configuration, private repository URLs, or full unsanitized logs.
+  - type: input
+    id: plugin-version
+    attributes:
+      label: Plugin version
+      description: Enter the version shown by the plugin package or descriptor.
+      placeholder: 1.0.0-rc.1
+    validations:
+      required: true
+  - type: input
+    id: unreal-version
+    attributes:
+      label: Unreal Engine version
+      placeholder: 5.8.1
+    validations:
+      required: true
+  - type: input
+    id: operating-system
+    attributes:
+      label: Operating system
+      placeholder: Windows 11
+    validations:
+      required: true
+  - type: input
+    id: git-version
+    attributes:
+      label: Git version
+    validations:
+      required: true
+  - type: input
+    id: git-lfs-version
+    attributes:
+      label: Git LFS version
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Briefly describe what happened without including sensitive repository or authentication details.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Sanitized diagnostics
+      description: Paste only concise, sanitized diagnostic messages. Remove credentials, private URLs, organization names, paths that reveal sensitive information, and raw logs.
